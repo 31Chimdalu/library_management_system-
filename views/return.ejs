@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Return a Book</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <h1>Return a Book</h1>
+  <form action="/api/return" method="post">
+    <label for="userId">User ID:</label>
+    <input type="text" id="userId" name="userId" required>
+    <br>
+    <label for="ISBN">Book ISBN:</label>
+    <input type="text" id="ISBN" name="ISBN" required>
+    <br>
+    <button type="submit">Return</button>
+  </form>
+  <a href="/">Back to Home</a>
+</body>
+</html>
